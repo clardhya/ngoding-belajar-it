@@ -1,0 +1,194 @@
+﻿/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+/* ===== App Container ===== */
+#app {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  width: 100%;
+  max-width: 580px;
+  height: fit-content;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+/* ===== Input Area ===== */
+#input-area {
+  margin-bottom: 24px;
+}
+
+#input-area label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+#input-row {
+  display: flex;
+  gap: 8px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+  color: #333;
+}
+
+#task-input:focus {
+  border-color: #4f6ef7;
+}
+
+#add-btn {
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background-color: #4f6ef7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  white-space: nowrap;
+}
+
+#add-btn:hover {
+  background-color: #3a57d4;
+}
+
+#add-btn:active {
+  transform: scale(0.97);
+}
+
+/* ===== Error Message ===== */
+#error-msg {
+  font-size: 0.825rem;
+  color: #e53e3e;
+  margin-top: 6px;
+  min-height: 18px;
+}
+
+/* ===== Task List ===== */
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 4px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.15s;
+}
+
+#task-list li:last-child {
+  border-bottom: none;
+}
+
+#task-list li:hover {
+  background-color: #fafafa;
+  border-radius: 6px;
+}
+
+/* ===== Checkbox ===== */
+#task-list input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: #4f6ef7;
+}
+
+/* ===== Task Text ===== */
+.task-text {
+  flex: 1;
+  font-size: 0.95rem;
+  color: #333;
+  cursor: pointer;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+/* ===== Delete Button ===== */
+.delete-btn {
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #e53e3e;
+  background-color: #fff5f5;
+  border: 1px solid #fed7d7;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #e53e3e;
+  color: #fff;
+}
+
+/* ===== Empty State ===== */
+#empty-msg {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  font-style: italic;
+  padding: 32px 0;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  #app {
+    padding: 24px 16px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #input-row {
+    flex-direction: column;
+  }
+
+  #add-btn {
+    width: 100%;
+  }
+}

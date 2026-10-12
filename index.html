@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Todo List</h1>
+
+    <div id="input-area">
+      <label for="task-input">Tugas baru</label>
+      <div id="input-row">
+        <input
+          type="text"
+          id="task-input"
+          aria-label="Tugas baru"
+          maxlength="200"
+          placeholder="Tambahkan tugas baru..."
+          autocomplete="off"
+        />
+        <button id="add-btn" aria-label="Tambah tugas">Tambah</button>
+      </div>
+      <p id="error-msg" role="alert" aria-live="polite"></p>
+    </div>
+
+    <ul id="task-list" aria-label="Daftar tugas" role="list"></ul>
+
+    <p id="empty-msg">Belum ada tugas. Tambahkan tugas pertama kamu!</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

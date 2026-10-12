@@ -1,0 +1,198 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Buat file `index.html` dengan struktur HTML dasar": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811615260
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811623826
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812024627
+      }
+    ],
+    "1.2 Buat file `style.css` dengan styling dasar": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811615970
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811627401
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812028270
+      }
+    ],
+    "1.3 Inisialisasi `app.js` dengan state global dan fungsi utilitas": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616182
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811631027
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812031733
+      }
+    ],
+    "1.4 Setup proyek Node.js dan install dev dependencies untuk pengujian": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616383
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811634329
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812035194
+      }
+    ],
+    "2.1 Implementasikan `validateTaskText(text)` dan `isTaskListFull()`": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616487
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812038950
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812434280
+      }
+    ],
+    "2.3 Implementasikan `addTask(text)`, `toggleTask(id)`, dan `deleteTask(id)`": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616583
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812042393
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812439359
+      }
+    ],
+    "2.6 Implementasikan `saveTasks()` dan `loadTasks()`": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616675
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812045924
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812442691
+      }
+    ],
+    "3. Checkpoint — Pastikan semua unit model lulus": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616775
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812569023
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812809304
+      }
+    ],
+    "4.1 Implementasikan `render()`, `showError(message)`, dan `clearError()`": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616871
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812451123
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812554419
+      }
+    ],
+    "5.1 Pasang event listeners dan hubungkan semua komponen di `app.js`": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811616975
+      },
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812824916
+      }
+    ],
+    "6. Final Checkpoint — Semua tes harus lulus": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791811617074
+      }
+    ],
+    "1. Buat struktur file proyek dan setup pengujian": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812035299
+      }
+    ],
+    "2. Implementasi Model: validasi, operasi task, dan persistensi": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812442847
+      }
+    ],
+    "4. Implementasi View: fungsi render dan pesan UI": [
+      {
+        "executionId": "fb23355b-b6d6-4817-b39e-399aa355ffcd",
+        "chatSessionId": "sess_0e9386cb-4c0a-4cdc-89e9-a81754b61177",
+        "timestamp": 1791812554529
+      }
+    ]
+  }
+}
